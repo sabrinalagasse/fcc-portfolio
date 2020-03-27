@@ -52,3 +52,32 @@ a {
     width: 60%;
     padding: 10px;
 }
+
+#projects 
+{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.tile-container {
+    min-width: 750px;
+    margin: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.project-link {
+    margin: 5px;
+}
+
+.project-preview {
+    width: 95%;
+    height: auto;
+    margin: 2.5%;
+}
+
+.project-tile {
+    background-color: #beb4af;
+}
