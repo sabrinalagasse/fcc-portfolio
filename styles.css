@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: 'Sintony', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f2f2f2;
 }
 
 h1, h2 {
@@ -28,4 +28,13 @@ a {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+#welcome-text {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+#welcome-text p {
+    width: 60%;
+    padding: 10px;
 }
