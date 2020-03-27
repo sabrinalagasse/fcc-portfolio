@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&family=Sintony&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Sintony', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Rufina', serif;
+}
+
+a {
+    text-decoration: none;
+}
